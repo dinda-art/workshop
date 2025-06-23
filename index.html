@@ -1,0 +1,72 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>To-Do List App</title>
+  <style>
+    body {
+      background: #f0f4f8;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .container {
+      background: #fff;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+      width: 300px;
+    }
+
+    h2 {
+      text-align: center;
+      color: #333;
+      margin-bottom: 20px;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    li {
+      background: #f7f9fc;
+      padding: 12px;
+      margin-bottom: 10px;
+      border-left: 5px solid #4caf50;
+      border-radius: 5px;
+      color: #333;
+    }
+
+    .completed {
+      text-decoration: line-through;
+      color: gray;
+      border-left-color: #ccc;
+    }
+
+    .footer {
+      text-align: center;
+      font-size: 12px;
+      color: #aaa;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>📋 My To-Do List</h2>
+    <ul>
+      <li>Belajar HTML & CSS</li>
+      <li class="completed">Baca buku 15 menit</li>
+      <li>Bikin desain aplikasi</li>
+      <li class="completed">Sholat 5 waktu</li>
+    </ul>
+    <div class="footer">Versi statis (tanpa JS)</div>
+  </div>
+</body>
+</html>
